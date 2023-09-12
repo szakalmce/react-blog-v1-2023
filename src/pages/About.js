@@ -1,8 +1,13 @@
 import React from 'react';
+import Breadcrumbs from '../components/Breadcrumbs';
 import Layout from '../Layouts/Layout';
 
 const About = () => {
-  return <Layout>About</Layout>;
+  return (
+    <Layout>
+      <Breadcrumbs />
+    </Layout>
+  );
 };
 
 export default About;

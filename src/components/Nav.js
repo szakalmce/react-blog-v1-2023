@@ -27,7 +27,9 @@ const Nav = () => {
       </div>
       <div className="nav-user-wrapper">
         <NavLink
-          className={({ isActive }) => (isActive ? 'selected' : '')}
+          className={({ isActive }) =>
+            isActive ? 'selected signup' : 'signup'
+          }
           to={urls.signup}
         >
           SignUp

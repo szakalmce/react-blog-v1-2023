@@ -4,7 +4,7 @@ import Nav from './Nav';
 const Header = () => {
   return (
     <div className="header-wrapper">
-      <h1>BLOG</h1>
+      <h1>BLOG WEBSITE</h1>
       <Nav />
     </div>
   );

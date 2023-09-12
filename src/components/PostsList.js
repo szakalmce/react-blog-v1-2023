@@ -5,9 +5,6 @@ import HomeSinglePost from './HomeSinglePost';
 const PostsList = ({ page }) => {
   const { postsList } = useBlogContext();
 
-  // Sort od końca
-  console.log(page);
-
   return (
     <div
       className={`home-posts-wrapper content-wrapper ${

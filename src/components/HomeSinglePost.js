@@ -5,7 +5,7 @@ import { urls } from '../utils/urls';
 const HomeSinglePost = ({ id, title, desc, post }) => {
   return (
     <Link
-      to={`${urls.posts}/${title.toLowerCase()}`}
+      to={`${urls.posts}/${title.toLowerCase().replace(/%20| /g, '')}`}
       state={{ post }}
       className="home-single-post-wrapper"
     >
